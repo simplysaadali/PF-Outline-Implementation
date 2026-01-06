@@ -12,7 +12,7 @@ void inputSingleMatrix(int arr[100][100], int rows, int cols) {
             
 }
 
-// Function to input two matrices (same size), only oce rows columns take adn used for both matrices
+// Function to input two matrices (same size), only one rows columns take and used for both matrices
 
 void inputTwoMatrices(int A[100][100], int B[100][100], int rows, int cols) {
     
@@ -50,11 +50,9 @@ void transposeMatrices(int rows, int cols) {
             cout << transpose[i][j] << " ";
         cout << endl;
     }
-    
 }
 
 // Function to add two matrices
-
 void addMatrices(int rows, int cols) {
     
     int A[100][100], B[100][100], C[100][100];
@@ -224,4 +222,3 @@ main_menu:
 
     return 0;
 }
-
