@@ -7,6 +7,8 @@ int main(){
         {1,1,1},
         {1,1,1}
     };
+
+    int null_array[5][5] = {0}; //all elements are initialized to 0
     
     int two_array1 [3][3];
     int two_array2 [3][3];
