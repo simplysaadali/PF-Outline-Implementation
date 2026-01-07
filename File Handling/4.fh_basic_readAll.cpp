@@ -14,6 +14,6 @@ int main(){
     while(getline(read, name) && (read >> age)){ // getline for string and >> for int
         cout << "Name: " << name << endl;
         cout << "Age: " << age << endl;
-        read.ignore();
+        cin.ignore();
     }
 }
